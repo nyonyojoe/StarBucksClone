@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+}
+
+header {
+    height: 101px;
+    box-shadow: 0px 1px 3px rgb(0, 0, 0/ 10%), 0 2px 2px rgb(0, 0, 0/ 7%);
+}
+
+.header-container { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: inherit;
+}
+.left-nav {
+    display: flex;
+}
+
+.left-nav nav ul li {
+    text-transform: uppercase;
+    padding-left: 24px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+.left-nav nav ul li:hover {
+    color: #008248;
+}
+
+.left-nav nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.logo {
+    height: 49px;
+    width: 49px;
+}
+
+.logo img{
+    height: 100%;
+}
+
+.header-container .right-nav {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+
+}
+
+.sign-in, .join-now {
+    padding-left: 24px;
+    padding: 7px 16px;
+    border: 1px solid;
+    font-weight: 600px;
+    border-radius: 50px;
+    line-height: 1.2;
+}
+
+.find-store {
+    margin-right: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.sign-in {
+    margin-right: 16px;
+}
+
+.join-now {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.join-now:hover {
+    background-color: rgba(0,0,0,.7);
+    border-color: rgba(0,0,0,.7);
+}
