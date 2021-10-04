@@ -65,6 +65,10 @@ header {
     align-items: center;
 }
 
+.find-store:hover {
+color: #00a862;
+}
+
 .sign-in {
     margin-right: 16px;
 }
